@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87AE12426E9B73800F481C3 /* flower-spring.gif in Resources */ = {isa = PBXBuildFile; fileRef = F87AE12326E9B73800F481C3 /* flower-spring.gif */; };
 		F8C928B826DEE6C900C06607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C928B726DEE6C900C06607 /* AppDelegate.swift */; };
 		F8C928BA26DEE6C900C06607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C928B926DEE6C900C06607 /* SceneDelegate.swift */; };
 		F8C928BC26DEE6C900C06607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C928BB26DEE6C900C06607 /* ViewController.swift */; };
@@ -16,11 +17,11 @@
 		F8C928CC26DEEB9800C06607 /* 少女.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8C928CB26DEEB9800C06607 /* 少女.gif */; };
 		F8C928CF26DEEBE700C06607 /* strawberries.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8C928CE26DEEBE700C06607 /* strawberries.gif */; };
 		F8C928D126DEEC3D00C06607 /* heart-love.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8C928D026DEEC3D00C06607 /* heart-love.gif */; };
-		F8C928D326DEEC4D00C06607 /* flower-spring.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8C928D226DEEC4D00C06607 /* flower-spring.gif */; };
 		F8C928D526E7FBFB00C06607 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C928D426E7FBFA00C06607 /* Swift+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F87AE12326E9B73800F481C3 /* flower-spring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "flower-spring.gif"; sourceTree = "<group>"; };
 		F8C928B426DEE6C900C06607 /* Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C928B726DEE6C900C06607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C928B926DEE6C900C06607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		F8C928CB26DEEB9800C06607 /* 少女.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "少女.gif"; sourceTree = "<group>"; };
 		F8C928CE26DEEBE700C06607 /* strawberries.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = strawberries.gif; path = "../../../../../../CU Year 2/JPNS 3120/Final Project/Slideshow Images/strawberries.gif"; sourceTree = "<group>"; };
 		F8C928D026DEEC3D00C06607 /* heart-love.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "heart-love.gif"; path = "../../../../../../CU Year 2/JPNS 3120/Final Project/Slideshow Images/heart-love.gif"; sourceTree = "<group>"; };
-		F8C928D226DEEC4D00C06607 /* flower-spring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "flower-spring.gif"; path = "../../../../../../CU Year 2/JPNS 3120/Final Project/Slideshow Images/flower-spring.gif"; sourceTree = "<group>"; };
 		F8C928D426E7FBFA00C06607 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +84,8 @@
 			children = (
 				F8C928CE26DEEBE700C06607 /* strawberries.gif */,
 				F8C928D026DEEC3D00C06607 /* heart-love.gif */,
-				F8C928D226DEEC4D00C06607 /* flower-spring.gif */,
 				F8C928CB26DEEB9800C06607 /* 少女.gif */,
+				F87AE12326E9B73800F481C3 /* flower-spring.gif */,
 			);
 			path = Gifs;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8C928D326DEEC4D00C06607 /* flower-spring.gif in Resources */,
+				F87AE12426E9B73800F481C3 /* flower-spring.gif in Resources */,
 				F8C928C426DEE6CF00C06607 /* LaunchScreen.storyboard in Resources */,
 				F8C928D126DEEC3D00C06607 /* heart-love.gif in Resources */,
 				F8C928C126DEE6CF00C06607 /* Assets.xcassets in Resources */,
