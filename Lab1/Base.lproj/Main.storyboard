@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="KoA-Lz-0Mv">
+                                <rect key="frame" x="27.5" y="69" width="359" height="213"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="TL9-Hv-RMM">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="109.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="339" translatesAutoresizingMaskIntoConstraints="NO" id="h8B-IM-m46">
+                                                <rect key="frame" x="22" y="0.0" width="315.5" height="63"/>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="62"/>
+                                                <color key="textColor" red="0.83921568627450982" green="0.78823529411764703" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the buttons below to learn more!" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3y-CA-ICW">
+                                                <rect key="frame" x="0.0" y="85" width="359" height="24.5"/>
+                                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="21"/>
+                                                <color key="textColor" red="0.38991790030753559" green="0.39679434880103837" blue="0.43970605642825311" alpha="0.80813538001862584" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="h37-6d-NgL">
+                                        <rect key="frame" x="27.5" y="171.5" width="304" height="41.5"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rBp-st-mZa">
+                                                <rect key="frame" x="0.0" y="1.5" width="119" height="38.5"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Favorite Fruit">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.76078431372549016" green="0.76470588235294112" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <font key="NSFont" size="19" name="KohinoorDevanagari-Medium"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="favoriteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SA5-Ku-9rQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eob-P3-fzm">
+                                                <rect key="frame" x="164" y="1.5" width="140" height="39"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="19"/>
+                                                <state key="normal" title="Favorite Season">
+                                                    <color key="titleColor" red="0.76078431372549016" green="0.76470588235294112" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="favoriteButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DiZ-wO-6db"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="h37-6d-NgL" firstAttribute="top" secondItem="TL9-Hv-RMM" secondAttribute="bottom" constant="62" id="VvE-qn-wgq"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart-love.gif" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q3M-ef-IXQ">
+                                <rect key="frame" x="-33" y="332" width="480" height="480"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.98039215686274506" green="0.95686274509803915" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KoA-Lz-0Mv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="2zl-Qh-r71"/>
+                            <constraint firstItem="q3M-ef-IXQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-33" id="BHk-dI-21w"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="q3M-ef-IXQ" secondAttribute="bottom" constant="50" id="QXi-GI-1y7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W3y-CA-ICW" secondAttribute="trailing" constant="27.5" id="VFy-jk-lit"/>
+                            <constraint firstItem="W3y-CA-ICW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27.5" id="Xev-j2-vEB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TL9-Hv-RMM" secondAttribute="trailing" constant="27.5" id="a9C-MF-zOC"/>
+                            <constraint firstAttribute="trailing" secondItem="q3M-ef-IXQ" secondAttribute="trailing" constant="-33" id="qc3-Ki-8Rv"/>
+                            <constraint firstItem="q3M-ef-IXQ" firstAttribute="top" secondItem="h37-6d-NgL" secondAttribute="bottom" constant="50" id="qcC-VE-A4h"/>
+                            <constraint firstItem="q3M-ef-IXQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="288" id="w5b-Y1-o3I"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutMeImage" destination="q3M-ef-IXQ" id="sam-nI-day"/>
+                        <outlet property="aboutMeText" destination="W3y-CA-ICW" id="ZMI-GS-gHX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="heart-love.gif" width="480" height="480"/>
+    </resources>
+</document>
