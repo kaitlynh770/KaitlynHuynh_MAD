@@ -16,7 +16,7 @@
 		F8EEE43A26F3DA420082DA04 /* baguette.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8EEE43926F3DA420082DA04 /* baguette.gif */; };
 		F8EEE43C26F3DA490082DA04 /* croissant.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8EEE43B26F3DA490082DA04 /* croissant.gif */; };
 		F8EEE43E26F3DAE20082DA04 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EEE43D26F3DAE20082DA04 /* Swift+Gif.swift */; };
-		F8EEE44226F526030082DA04 /* sandwich.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8EEE44126F526030082DA04 /* sandwich.gif */; };
+		F8EEE46426FC237E0082DA04 /* sandwich.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8EEE46326FC237E0082DA04 /* sandwich.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +31,7 @@
 		F8EEE43926F3DA420082DA04 /* baguette.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baguette.gif; sourceTree = "<group>"; };
 		F8EEE43B26F3DA490082DA04 /* croissant.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = croissant.gif; sourceTree = "<group>"; };
 		F8EEE43D26F3DAE20082DA04 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		F8EEE44026F3DCC30082DA04 /* GamjaFlower-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GamjaFlower-Regular.ttf"; path = "../../../../../Gamja_Flower/GamjaFlower-Regular.ttf"; sourceTree = "<group>"; };
-		F8EEE44126F526030082DA04 /* sandwich.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = sandwich.gif; path = ../../../sandwich.gif; sourceTree = "<group>"; };
+		F8EEE46326FC237E0082DA04 /* sandwich.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sandwich.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +64,6 @@
 		F8EEE41D26F3D46F0082DA04 /* Lab3 */ = {
 			isa = PBXGroup;
 			children = (
-				F8EEE43F26F3DC790082DA04 /* Fonts */,
 				F8EEE43326F3D99F0082DA04 /* Gifs */,
 				F8EEE41E26F3D46F0082DA04 /* AppDelegate.swift */,
 				F8EEE42026F3D46F0082DA04 /* SceneDelegate.swift */,
@@ -82,19 +80,11 @@
 		F8EEE43326F3D99F0082DA04 /* Gifs */ = {
 			isa = PBXGroup;
 			children = (
-				F8EEE44126F526030082DA04 /* sandwich.gif */,
+				F8EEE46326FC237E0082DA04 /* sandwich.gif */,
 				F8EEE43926F3DA420082DA04 /* baguette.gif */,
 				F8EEE43B26F3DA490082DA04 /* croissant.gif */,
 			);
 			path = Gifs;
-			sourceTree = "<group>";
-		};
-		F8EEE43F26F3DC790082DA04 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				F8EEE44026F3DCC30082DA04 /* GamjaFlower-Regular.ttf */,
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +144,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8EEE46426FC237E0082DA04 /* sandwich.gif in Resources */,
 				F8EEE43C26F3DA490082DA04 /* croissant.gif in Resources */,
 				F8EEE42B26F3D4720082DA04 /* LaunchScreen.storyboard in Resources */,
 				F8EEE43A26F3DA420082DA04 /* baguette.gif in Resources */,
-				F8EEE44226F526030082DA04 /* sandwich.gif in Resources */,
 				F8EEE42826F3D4720082DA04 /* Assets.xcassets in Resources */,
 				F8EEE42626F3D46F0082DA04 /* Main.storyboard in Resources */,
 			);
