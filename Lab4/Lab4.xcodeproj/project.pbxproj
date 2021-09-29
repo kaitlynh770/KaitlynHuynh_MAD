@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8212558270506F600FD8D27 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = F8212557270506F600FD8D27 /* cake.gif */; };
 		F86DE52A2703AF9200CE8330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DE5292703AF9200CE8330 /* AppDelegate.swift */; };
 		F86DE52C2703AF9200CE8330 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DE52B2703AF9200CE8330 /* SceneDelegate.swift */; };
 		F86DE52E2703AF9200CE8330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DE52D2703AF9200CE8330 /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		F86DE5332703AF9600CE8330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86DE5322703AF9600CE8330 /* Assets.xcassets */; };
 		F86DE5362703AF9600CE8330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86DE5342703AF9600CE8330 /* LaunchScreen.storyboard */; };
 		F86DE5412703B5AF00CE8330 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DE5402703B5AF00CE8330 /* Swift+Gif.swift */; };
-		F86DE5432703E41D00CE8330 /* cake.gif in Resources */ = {isa = PBXBuildFile; fileRef = F86DE5422703E41D00CE8330 /* cake.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8212557270506F600FD8D27 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cake.gif; sourceTree = "<group>"; };
 		F86DE5262703AF9200CE8330 /* Lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86DE5292703AF9200CE8330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F86DE52B2703AF9200CE8330 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		F86DE5352703AF9600CE8330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86DE5372703AF9700CE8330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86DE5402703B5AF00CE8330 /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		F86DE5422703E41D00CE8330 /* cake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cake.gif; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/cake.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		F86DE53D2703B51300CE8330 /* Gif */ = {
 			isa = PBXGroup;
 			children = (
-				F86DE5422703E41D00CE8330 /* cake.gif */,
+				F8212557270506F600FD8D27 /* cake.gif */,
 			);
 			path = Gif;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8212558270506F600FD8D27 /* cake.gif in Resources */,
 				F86DE5362703AF9600CE8330 /* LaunchScreen.storyboard in Resources */,
-				F86DE5432703E41D00CE8330 /* cake.gif in Resources */,
 				F86DE5332703AF9600CE8330 /* Assets.xcassets in Resources */,
 				F86DE5312703AF9200CE8330 /* Main.storyboard in Resources */,
 			);
