@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "liyue_vision___electro_v2_by_thedarkkami_de87fjn-fullview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

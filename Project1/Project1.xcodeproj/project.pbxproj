@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F835A8EC27113DB10070541D /* hu-tao-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E327113DB00070541D /* hu-tao-intro-cn.wav */; };
+		F835A8ED27113DB10070541D /* hu-tao-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E427113DB00070541D /* hu-tao-intro-en.wav */; };
+		F835A8EE27113DB10070541D /* hu-tao-name-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E527113DB10070541D /* hu-tao-name-jp.wav */; };
+		F835A8EF27113DB10070541D /* hu-tao-night-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E627113DB10070541D /* hu-tao-night-cn.wav */; };
+		F835A8F027113DB10070541D /* hu-tao-name-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E727113DB10070541D /* hu-tao-name-cn.wav */; };
+		F835A8F127113DB10070541D /* hu-tao-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E827113DB10070541D /* hu-tao-intro-jp.wav */; };
+		F835A8F227113DB10070541D /* hu-tao-night-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8E927113DB10070541D /* hu-tao-night-en.wav */; };
+		F835A8F327113DB10070541D /* hu-tao-name-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8EA27113DB10070541D /* hu-tao-name-en.wav */; };
+		F835A8F427113DB10070541D /* hu-tao-night-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8EB27113DB10070541D /* hu-tao-night-jp.wav */; };
+		F835A8F827113DB90070541D /* hu-tao-hill-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8F527113DB80070541D /* hu-tao-hill-jp.wav */; };
+		F835A8F927113DB90070541D /* hu-tao-hill-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8F627113DB80070541D /* hu-tao-hill-cn.wav */; };
+		F835A8FA27113DB90070541D /* hu-tao-hill-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8F727113DB90070541D /* hu-tao-hill-en.wav */; };
+		F835A8FD27114E6C0070541D /* introductionganyu-chinese.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A8FC27114E6C0070541D /* introductionganyu-chinese.wav */; };
+		F835A90127114E7E0070541D /* introductionganyu-japanese.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A90027114E7E0070541D /* introductionganyu-japanese.wav */; };
+		F835A90327114F220070541D /* introduction-ganyu-english.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A90227114F220070541D /* introduction-ganyu-english.wav */; };
+		F835A90A271155560070541D /* ganyu-rain-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A904271155550070541D /* ganyu-rain-en.wav */; };
+		F835A90B271155560070541D /* ganyu-qingxin-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A905271155550070541D /* ganyu-qingxin-cn.wav */; };
+		F835A90C271155560070541D /* ganyu-qingxin-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A906271155550070541D /* ganyu-qingxin-en.wav */; };
+		F835A90D271155560070541D /* ganyu-rain-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A907271155550070541D /* ganyu-rain-cn.wav */; };
+		F835A90E271155560070541D /* ganyu-rain-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A908271155560070541D /* ganyu-rain-jp.wav */; };
+		F835A90F271155560070541D /* ganyu-qingxin-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A909271155560070541D /* ganyu-qingxin-jp.wav */; };
+		F835A919271155BF0070541D /* ganyu-work-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A916271155BF0070541D /* ganyu-work-en.wav */; };
+		F835A91A271155BF0070541D /* ganyu-work-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A917271155BF0070541D /* ganyu-work-jp.wav */; };
+		F835A91B271155BF0070541D /* ganyu-work-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A918271155BF0070541D /* ganyu-work-cn.wav */; };
+		F835A92227115BDC0070541D /* keqing-proc-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A91C27115BDB0070541D /* keqing-proc-jp.wav */; };
+		F835A92327115BDC0070541D /* keqing-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A91D27115BDB0070541D /* keqing-intro-jp.wav */; };
+		F835A92427115BDC0070541D /* keqing-proc-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A91E27115BDB0070541D /* keqing-proc-cn.wav */; };
+		F835A92527115BDC0070541D /* keqing-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A91F27115BDB0070541D /* keqing-intro-cn.wav */; };
+		F835A92627115BDC0070541D /* keqing-proc-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92027115BDB0070541D /* keqing-proc-en.wav */; };
+		F835A92727115BDC0070541D /* keqing-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92127115BDC0070541D /* keqing-intro-en.wav */; };
+		F835A92E27115BE90070541D /* keqing-shopping-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92827115BE90070541D /* keqing-shopping-jp.wav */; };
+		F835A92F27115BE90070541D /* keqing-sun-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92927115BE90070541D /* keqing-sun-cn.wav */; };
+		F835A93027115BE90070541D /* keqing-sun-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92A27115BE90070541D /* keqing-sun-jp.wav */; };
+		F835A93127115BE90070541D /* keqing-sun-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92B27115BE90070541D /* keqing-sun-en.wav */; };
+		F835A93227115BE90070541D /* keqing-shopping-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92C27115BE90070541D /* keqing-shopping-cn.wav */; };
+		F835A93327115BE90070541D /* keqing-shopping-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A92D27115BE90070541D /* keqing-shopping-en.wav */; };
+		F835A93A27115F180070541D /* yanfei-law-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93427115F170070541D /* yanfei-law-jp.wav */; };
+		F835A93B27115F180070541D /* yanfei-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93527115F180070541D /* yanfei-intro-en.wav */; };
+		F835A93C27115F180070541D /* yanfei-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93627115F180070541D /* yanfei-intro-jp.wav */; };
+		F835A93D27115F180070541D /* yanfei-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93727115F180070541D /* yanfei-intro-cn.wav */; };
+		F835A93E27115F180070541D /* yanfei-law-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93827115F180070541D /* yanfei-law-cn.wav */; };
+		F835A93F27115F180070541D /* yanfei-law-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A93927115F180070541D /* yanfei-law-en.wav */; };
+		F835A94327115F210070541D /* yanfei-rain-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94027115F200070541D /* yanfei-rain-jp.wav */; };
+		F835A94427115F210070541D /* yanfei-rain-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94127115F200070541D /* yanfei-rain-cn.wav */; };
+		F835A94527115F210070541D /* yanfei-rain-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94227115F210070541D /* yanfei-rain-en.wav */; };
+		F835A94927115F280070541D /* yanfei-tofu-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94627115F270070541D /* yanfei-tofu-jp.wav */; };
+		F835A94A27115F280070541D /* yanfei-tofu-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94727115F270070541D /* yanfei-tofu-en.wav */; };
+		F835A94B27115F280070541D /* yanfei-tofu-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94827115F280070541D /* yanfei-tofu-cn.wav */; };
+		F835A94F27116BFE0070541D /* zhongli-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94C27116BFD0070541D /* zhongli-intro-cn.wav */; };
+		F835A95027116BFE0070541D /* zhongli-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94D27116BFD0070541D /* zhongli-intro-en.wav */; };
+		F835A95127116BFE0070541D /* zhongli-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A94E27116BFD0070541D /* zhongli-intro-jp.wav */; };
+		F835A95527116C070070541D /* zhongli-seafood-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95227116C070070541D /* zhongli-seafood-en.wav */; };
+		F835A95627116C070070541D /* zhongli-seafood-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95327116C070070541D /* zhongli-seafood-jp.wav */; };
+		F835A95727116C070070541D /* zhongli-seafood-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95427116C070070541D /* zhongli-seafood-cn.wav */; };
+		F835A95E27116C110070541D /* zhongli-tour-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95827116C100070541D /* zhongli-tour-en.wav */; };
+		F835A95F27116C110070541D /* zhongli-wine-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95927116C100070541D /* zhongli-wine-cn.wav */; };
+		F835A96027116C110070541D /* zhongli-tour-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95A27116C100070541D /* zhongli-tour-cn.wav */; };
+		F835A96127116C110070541D /* zhongli-wine-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95B27116C110070541D /* zhongli-wine-en.wav */; };
+		F835A96227116C110070541D /* zhongli-tour-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95C27116C110070541D /* zhongli-tour-jp.wav */; };
+		F835A96327116C110070541D /* zhongli-wine-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A95D27116C110070541D /* zhongli-wine-jp.wav */; };
+		F835A96D27116F250070541D /* childe-idle-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96427116F240070541D /* childe-idle-jp.wav */; };
+		F835A96E27116F250070541D /* childe-fish-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96527116F240070541D /* childe-fish-cn.wav */; };
+		F835A96F27116F250070541D /* childe-idle-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96627116F240070541D /* childe-idle-cn.wav */; };
+		F835A97027116F250070541D /* childe-fish-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96727116F240070541D /* childe-fish-jp.wav */; };
+		F835A97127116F250070541D /* childe-home-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96827116F240070541D /* childe-home-jp.wav */; };
+		F835A97227116F250070541D /* childe-home-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96927116F240070541D /* childe-home-en.wav */; };
+		F835A97327116F250070541D /* childe-home-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96A27116F250070541D /* childe-home-cn.wav */; };
+		F835A97427116F250070541D /* childe-fish-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96B27116F250070541D /* childe-fish-en.wav */; };
+		F835A97527116F250070541D /* childe-idle-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A96C27116F250070541D /* childe-idle-en.wav */; };
+		F835A97927116F2C0070541D /* childe-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97627116F2C0070541D /* childe-intro-cn.wav */; };
+		F835A97A27116F2C0070541D /* childe-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97727116F2C0070541D /* childe-intro-en.wav */; };
+		F835A97B27116F2C0070541D /* childe-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97827116F2C0070541D /* childe-intro-jp.wav */; };
+		F835A97F2711720F0070541D /* kazuha-about-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97C2711720F0070541D /* kazuha-about-cn.wav */; };
+		F835A9802711720F0070541D /* kazuha-about-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97D2711720F0070541D /* kazuha-about-en.wav */; };
+		F835A9812711720F0070541D /* kazuha-about-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A97E2711720F0070541D /* kazuha-about-jp.wav */; };
+		F835A98B2711721D0070541D /* kazuha-rock-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9822711721B0070541D /* kazuha-rock-cn.wav */; };
+		F835A98C2711721D0070541D /* kazuha-maple-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9832711721B0070541D /* kazuha-maple-jp.wav */; };
+		F835A98D2711721D0070541D /* kazuha-rock-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9842711721C0070541D /* kazuha-rock-en.wav */; };
+		F835A98E2711721D0070541D /* kazuha-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9852711721C0070541D /* kazuha-intro-cn.wav */; };
+		F835A98F2711721D0070541D /* kazuha-maple-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9862711721C0070541D /* kazuha-maple-en.wav */; };
+		F835A9902711721D0070541D /* kazuha-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9872711721C0070541D /* kazuha-intro-jp.wav */; };
+		F835A9912711721D0070541D /* kazuha-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9882711721C0070541D /* kazuha-intro-en.wav */; };
+		F835A9922711721D0070541D /* kazuha-maple-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9892711721C0070541D /* kazuha-maple-cn.wav */; };
+		F835A9932711721D0070541D /* kazuha-rock-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A98A2711721D0070541D /* kazuha-rock-jp.wav */; };
+		F835A997271175530070541D /* chongyun-diet-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A994271175520070541D /* chongyun-diet-jp.wav */; };
+		F835A998271175530070541D /* chongyun-diet-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A995271175520070541D /* chongyun-diet-cn.wav */; };
+		F835A999271175530070541D /* chongyun-diet-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A996271175530070541D /* chongyun-diet-en.wav */; };
+		F835A99D2711755A0070541D /* chongyun-intro-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A99A2711755A0070541D /* chongyun-intro-cn.wav */; };
+		F835A99E2711755A0070541D /* chongyun-intro-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A99B2711755A0070541D /* chongyun-intro-jp.wav */; };
+		F835A99F2711755A0070541D /* chongyun-intro-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A99C2711755A0070541D /* chongyun-intro-en.wav */; };
+		F835A9A6271175670070541D /* chongyun-spicy-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A0271175660070541D /* chongyun-spicy-jp.wav */; };
+		F835A9A7271175670070541D /* chongyun-spicy-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A1271175660070541D /* chongyun-spicy-en.wav */; };
+		F835A9A8271175670070541D /* chongyun-spicy-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A2271175660070541D /* chongyun-spicy-cn.wav */; };
+		F835A9A9271175670070541D /* chongyun-tea-cn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A3271175660070541D /* chongyun-tea-cn.wav */; };
+		F835A9AA271175670070541D /* chongyun-tea-jp.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A4271175660070541D /* chongyun-tea-jp.wav */; };
+		F835A9AB271175670070541D /* chongyun-tea-en.wav in Resources */ = {isa = PBXBuildFile; fileRef = F835A9A5271175670070541D /* chongyun-tea-en.wav */; };
+		F8A4D821270CB35D00909D49 /* Artworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A4D820270CB35D00909D49 /* Artworks.swift */; };
+		F8A4D823270CB53000909D49 /* ButtonSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A4D822270CB53000909D49 /* ButtonSelection.swift */; };
+		F8A4D825270CB5E300909D49 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A4D824270CB5E300909D49 /* Quiz.swift */; };
+		F8C27FFC270AAE63002CDA8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C27FFB270AAE63002CDA8B /* AppDelegate.swift */; };
+		F8C27FFE270AAE63002CDA8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C27FFD270AAE63002CDA8B /* SceneDelegate.swift */; };
+		F8C28000270AAE63002CDA8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C27FFF270AAE63002CDA8B /* ViewController.swift */; };
+		F8C28003270AAE63002CDA8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C28001270AAE63002CDA8B /* Main.storyboard */; };
+		F8C28005270AAE6A002CDA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C28004270AAE6A002CDA8B /* Assets.xcassets */; };
+		F8C28008270AAE6A002CDA8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C28006270AAE6A002CDA8B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F835A8E327113DB00070541D /* hu-tao-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A8E427113DB00070541D /* hu-tao-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-intro-en.wav"; sourceTree = "<group>"; };
+		F835A8E527113DB10070541D /* hu-tao-name-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-name-jp.wav"; sourceTree = "<group>"; };
+		F835A8E627113DB10070541D /* hu-tao-night-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-night-cn.wav"; sourceTree = "<group>"; };
+		F835A8E727113DB10070541D /* hu-tao-name-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-name-cn.wav"; sourceTree = "<group>"; };
+		F835A8E827113DB10070541D /* hu-tao-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A8E927113DB10070541D /* hu-tao-night-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-night-en.wav"; sourceTree = "<group>"; };
+		F835A8EA27113DB10070541D /* hu-tao-name-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-name-en.wav"; sourceTree = "<group>"; };
+		F835A8EB27113DB10070541D /* hu-tao-night-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-night-jp.wav"; sourceTree = "<group>"; };
+		F835A8F527113DB80070541D /* hu-tao-hill-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-hill-jp.wav"; sourceTree = "<group>"; };
+		F835A8F627113DB80070541D /* hu-tao-hill-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-hill-cn.wav"; sourceTree = "<group>"; };
+		F835A8F727113DB90070541D /* hu-tao-hill-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hu-tao-hill-en.wav"; sourceTree = "<group>"; };
+		F835A8FC27114E6C0070541D /* introductionganyu-chinese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "introductionganyu-chinese.wav"; sourceTree = "<group>"; };
+		F835A90027114E7E0070541D /* introductionganyu-japanese.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "introductionganyu-japanese.wav"; sourceTree = "<group>"; };
+		F835A90227114F220070541D /* introduction-ganyu-english.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "introduction-ganyu-english.wav"; sourceTree = "<group>"; };
+		F835A904271155550070541D /* ganyu-rain-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-rain-en.wav"; sourceTree = "<group>"; };
+		F835A905271155550070541D /* ganyu-qingxin-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-qingxin-cn.wav"; sourceTree = "<group>"; };
+		F835A906271155550070541D /* ganyu-qingxin-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-qingxin-en.wav"; sourceTree = "<group>"; };
+		F835A907271155550070541D /* ganyu-rain-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-rain-cn.wav"; sourceTree = "<group>"; };
+		F835A908271155560070541D /* ganyu-rain-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-rain-jp.wav"; sourceTree = "<group>"; };
+		F835A909271155560070541D /* ganyu-qingxin-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-qingxin-jp.wav"; sourceTree = "<group>"; };
+		F835A916271155BF0070541D /* ganyu-work-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-work-en.wav"; sourceTree = "<group>"; };
+		F835A917271155BF0070541D /* ganyu-work-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-work-jp.wav"; sourceTree = "<group>"; };
+		F835A918271155BF0070541D /* ganyu-work-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ganyu-work-cn.wav"; sourceTree = "<group>"; };
+		F835A91C27115BDB0070541D /* keqing-proc-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-proc-jp.wav"; sourceTree = "<group>"; };
+		F835A91D27115BDB0070541D /* keqing-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A91E27115BDB0070541D /* keqing-proc-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-proc-cn.wav"; sourceTree = "<group>"; };
+		F835A91F27115BDB0070541D /* keqing-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A92027115BDB0070541D /* keqing-proc-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-proc-en.wav"; sourceTree = "<group>"; };
+		F835A92127115BDC0070541D /* keqing-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-intro-en.wav"; sourceTree = "<group>"; };
+		F835A92827115BE90070541D /* keqing-shopping-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-shopping-jp.wav"; sourceTree = "<group>"; };
+		F835A92927115BE90070541D /* keqing-sun-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-sun-cn.wav"; sourceTree = "<group>"; };
+		F835A92A27115BE90070541D /* keqing-sun-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-sun-jp.wav"; sourceTree = "<group>"; };
+		F835A92B27115BE90070541D /* keqing-sun-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-sun-en.wav"; sourceTree = "<group>"; };
+		F835A92C27115BE90070541D /* keqing-shopping-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-shopping-cn.wav"; sourceTree = "<group>"; };
+		F835A92D27115BE90070541D /* keqing-shopping-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "keqing-shopping-en.wav"; sourceTree = "<group>"; };
+		F835A93427115F170070541D /* yanfei-law-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-law-jp.wav"; sourceTree = "<group>"; };
+		F835A93527115F180070541D /* yanfei-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-intro-en.wav"; sourceTree = "<group>"; };
+		F835A93627115F180070541D /* yanfei-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A93727115F180070541D /* yanfei-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A93827115F180070541D /* yanfei-law-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-law-cn.wav"; sourceTree = "<group>"; };
+		F835A93927115F180070541D /* yanfei-law-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-law-en.wav"; sourceTree = "<group>"; };
+		F835A94027115F200070541D /* yanfei-rain-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-rain-jp.wav"; sourceTree = "<group>"; };
+		F835A94127115F200070541D /* yanfei-rain-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-rain-cn.wav"; sourceTree = "<group>"; };
+		F835A94227115F210070541D /* yanfei-rain-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-rain-en.wav"; sourceTree = "<group>"; };
+		F835A94627115F270070541D /* yanfei-tofu-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-tofu-jp.wav"; sourceTree = "<group>"; };
+		F835A94727115F270070541D /* yanfei-tofu-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-tofu-en.wav"; sourceTree = "<group>"; };
+		F835A94827115F280070541D /* yanfei-tofu-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "yanfei-tofu-cn.wav"; sourceTree = "<group>"; };
+		F835A94C27116BFD0070541D /* zhongli-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A94D27116BFD0070541D /* zhongli-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-intro-en.wav"; sourceTree = "<group>"; };
+		F835A94E27116BFD0070541D /* zhongli-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A95227116C070070541D /* zhongli-seafood-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-seafood-en.wav"; sourceTree = "<group>"; };
+		F835A95327116C070070541D /* zhongli-seafood-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-seafood-jp.wav"; sourceTree = "<group>"; };
+		F835A95427116C070070541D /* zhongli-seafood-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-seafood-cn.wav"; sourceTree = "<group>"; };
+		F835A95827116C100070541D /* zhongli-tour-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-tour-en.wav"; sourceTree = "<group>"; };
+		F835A95927116C100070541D /* zhongli-wine-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-wine-cn.wav"; sourceTree = "<group>"; };
+		F835A95A27116C100070541D /* zhongli-tour-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-tour-cn.wav"; sourceTree = "<group>"; };
+		F835A95B27116C110070541D /* zhongli-wine-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-wine-en.wav"; sourceTree = "<group>"; };
+		F835A95C27116C110070541D /* zhongli-tour-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-tour-jp.wav"; sourceTree = "<group>"; };
+		F835A95D27116C110070541D /* zhongli-wine-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "zhongli-wine-jp.wav"; sourceTree = "<group>"; };
+		F835A96427116F240070541D /* childe-idle-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-idle-jp.wav"; sourceTree = "<group>"; };
+		F835A96527116F240070541D /* childe-fish-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-fish-cn.wav"; sourceTree = "<group>"; };
+		F835A96627116F240070541D /* childe-idle-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-idle-cn.wav"; sourceTree = "<group>"; };
+		F835A96727116F240070541D /* childe-fish-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-fish-jp.wav"; sourceTree = "<group>"; };
+		F835A96827116F240070541D /* childe-home-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-home-jp.wav"; sourceTree = "<group>"; };
+		F835A96927116F240070541D /* childe-home-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-home-en.wav"; sourceTree = "<group>"; };
+		F835A96A27116F250070541D /* childe-home-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-home-cn.wav"; sourceTree = "<group>"; };
+		F835A96B27116F250070541D /* childe-fish-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-fish-en.wav"; sourceTree = "<group>"; };
+		F835A96C27116F250070541D /* childe-idle-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-idle-en.wav"; sourceTree = "<group>"; };
+		F835A97627116F2C0070541D /* childe-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A97727116F2C0070541D /* childe-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-intro-en.wav"; sourceTree = "<group>"; };
+		F835A97827116F2C0070541D /* childe-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "childe-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A97C2711720F0070541D /* kazuha-about-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-about-cn.wav"; sourceTree = "<group>"; };
+		F835A97D2711720F0070541D /* kazuha-about-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-about-en.wav"; sourceTree = "<group>"; };
+		F835A97E2711720F0070541D /* kazuha-about-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-about-jp.wav"; sourceTree = "<group>"; };
+		F835A9822711721B0070541D /* kazuha-rock-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-rock-cn.wav"; sourceTree = "<group>"; };
+		F835A9832711721B0070541D /* kazuha-maple-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-maple-jp.wav"; sourceTree = "<group>"; };
+		F835A9842711721C0070541D /* kazuha-rock-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-rock-en.wav"; sourceTree = "<group>"; };
+		F835A9852711721C0070541D /* kazuha-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A9862711721C0070541D /* kazuha-maple-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-maple-en.wav"; sourceTree = "<group>"; };
+		F835A9872711721C0070541D /* kazuha-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A9882711721C0070541D /* kazuha-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-intro-en.wav"; sourceTree = "<group>"; };
+		F835A9892711721C0070541D /* kazuha-maple-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-maple-cn.wav"; sourceTree = "<group>"; };
+		F835A98A2711721D0070541D /* kazuha-rock-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kazuha-rock-jp.wav"; sourceTree = "<group>"; };
+		F835A994271175520070541D /* chongyun-diet-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-diet-jp.wav"; sourceTree = "<group>"; };
+		F835A995271175520070541D /* chongyun-diet-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-diet-cn.wav"; sourceTree = "<group>"; };
+		F835A996271175530070541D /* chongyun-diet-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-diet-en.wav"; sourceTree = "<group>"; };
+		F835A99A2711755A0070541D /* chongyun-intro-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-intro-cn.wav"; sourceTree = "<group>"; };
+		F835A99B2711755A0070541D /* chongyun-intro-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-intro-jp.wav"; sourceTree = "<group>"; };
+		F835A99C2711755A0070541D /* chongyun-intro-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-intro-en.wav"; sourceTree = "<group>"; };
+		F835A9A0271175660070541D /* chongyun-spicy-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-spicy-jp.wav"; sourceTree = "<group>"; };
+		F835A9A1271175660070541D /* chongyun-spicy-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-spicy-en.wav"; sourceTree = "<group>"; };
+		F835A9A2271175660070541D /* chongyun-spicy-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-spicy-cn.wav"; sourceTree = "<group>"; };
+		F835A9A3271175660070541D /* chongyun-tea-cn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-tea-cn.wav"; sourceTree = "<group>"; };
+		F835A9A4271175660070541D /* chongyun-tea-jp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-tea-jp.wav"; sourceTree = "<group>"; };
+		F835A9A5271175670070541D /* chongyun-tea-en.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "chongyun-tea-en.wav"; sourceTree = "<group>"; };
+		F8A4D820270CB35D00909D49 /* Artworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artworks.swift; sourceTree = "<group>"; };
+		F8A4D822270CB53000909D49 /* ButtonSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSelection.swift; sourceTree = "<group>"; };
+		F8A4D824270CB5E300909D49 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		F8C27FF8270AAE63002CDA8B /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C27FFB270AAE63002CDA8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8C27FFD270AAE63002CDA8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8C27FFF270AAE63002CDA8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8C28002270AAE63002CDA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C28004270AAE6A002CDA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8C28007270AAE6A002CDA8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8C28009270AAE6A002CDA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C27FF5270AAE63002CDA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F835A8FB27113DBF0070541D /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F835A9A2271175660070541D /* chongyun-spicy-cn.wav */,
+				F835A9A1271175660070541D /* chongyun-spicy-en.wav */,
+				F835A9A0271175660070541D /* chongyun-spicy-jp.wav */,
+				F835A9A3271175660070541D /* chongyun-tea-cn.wav */,
+				F835A9A5271175670070541D /* chongyun-tea-en.wav */,
+				F835A9A4271175660070541D /* chongyun-tea-jp.wav */,
+				F835A99A2711755A0070541D /* chongyun-intro-cn.wav */,
+				F835A99C2711755A0070541D /* chongyun-intro-en.wav */,
+				F835A99B2711755A0070541D /* chongyun-intro-jp.wav */,
+				F835A995271175520070541D /* chongyun-diet-cn.wav */,
+				F835A996271175530070541D /* chongyun-diet-en.wav */,
+				F835A994271175520070541D /* chongyun-diet-jp.wav */,
+				F835A9852711721C0070541D /* kazuha-intro-cn.wav */,
+				F835A9882711721C0070541D /* kazuha-intro-en.wav */,
+				F835A9872711721C0070541D /* kazuha-intro-jp.wav */,
+				F835A9892711721C0070541D /* kazuha-maple-cn.wav */,
+				F835A9862711721C0070541D /* kazuha-maple-en.wav */,
+				F835A9832711721B0070541D /* kazuha-maple-jp.wav */,
+				F835A9822711721B0070541D /* kazuha-rock-cn.wav */,
+				F835A9842711721C0070541D /* kazuha-rock-en.wav */,
+				F835A98A2711721D0070541D /* kazuha-rock-jp.wav */,
+				F835A97C2711720F0070541D /* kazuha-about-cn.wav */,
+				F835A97D2711720F0070541D /* kazuha-about-en.wav */,
+				F835A97E2711720F0070541D /* kazuha-about-jp.wav */,
+				F835A97627116F2C0070541D /* childe-intro-cn.wav */,
+				F835A97727116F2C0070541D /* childe-intro-en.wav */,
+				F835A97827116F2C0070541D /* childe-intro-jp.wav */,
+				F835A96527116F240070541D /* childe-fish-cn.wav */,
+				F835A96B27116F250070541D /* childe-fish-en.wav */,
+				F835A96727116F240070541D /* childe-fish-jp.wav */,
+				F835A96A27116F250070541D /* childe-home-cn.wav */,
+				F835A96927116F240070541D /* childe-home-en.wav */,
+				F835A96827116F240070541D /* childe-home-jp.wav */,
+				F835A96627116F240070541D /* childe-idle-cn.wav */,
+				F835A96C27116F250070541D /* childe-idle-en.wav */,
+				F835A96427116F240070541D /* childe-idle-jp.wav */,
+				F835A95A27116C100070541D /* zhongli-tour-cn.wav */,
+				F835A95827116C100070541D /* zhongli-tour-en.wav */,
+				F835A95C27116C110070541D /* zhongli-tour-jp.wav */,
+				F835A95927116C100070541D /* zhongli-wine-cn.wav */,
+				F835A95B27116C110070541D /* zhongli-wine-en.wav */,
+				F835A95D27116C110070541D /* zhongli-wine-jp.wav */,
+				F835A95427116C070070541D /* zhongli-seafood-cn.wav */,
+				F835A95227116C070070541D /* zhongli-seafood-en.wav */,
+				F835A95327116C070070541D /* zhongli-seafood-jp.wav */,
+				F835A94C27116BFD0070541D /* zhongli-intro-cn.wav */,
+				F835A94D27116BFD0070541D /* zhongli-intro-en.wav */,
+				F835A94E27116BFD0070541D /* zhongli-intro-jp.wav */,
+				F835A94827115F280070541D /* yanfei-tofu-cn.wav */,
+				F835A94727115F270070541D /* yanfei-tofu-en.wav */,
+				F835A94627115F270070541D /* yanfei-tofu-jp.wav */,
+				F835A94127115F200070541D /* yanfei-rain-cn.wav */,
+				F835A94227115F210070541D /* yanfei-rain-en.wav */,
+				F835A94027115F200070541D /* yanfei-rain-jp.wav */,
+				F835A93727115F180070541D /* yanfei-intro-cn.wav */,
+				F835A93527115F180070541D /* yanfei-intro-en.wav */,
+				F835A93627115F180070541D /* yanfei-intro-jp.wav */,
+				F835A93827115F180070541D /* yanfei-law-cn.wav */,
+				F835A93927115F180070541D /* yanfei-law-en.wav */,
+				F835A93427115F170070541D /* yanfei-law-jp.wav */,
+				F835A92C27115BE90070541D /* keqing-shopping-cn.wav */,
+				F835A92D27115BE90070541D /* keqing-shopping-en.wav */,
+				F835A92827115BE90070541D /* keqing-shopping-jp.wav */,
+				F835A92927115BE90070541D /* keqing-sun-cn.wav */,
+				F835A92B27115BE90070541D /* keqing-sun-en.wav */,
+				F835A92A27115BE90070541D /* keqing-sun-jp.wav */,
+				F835A91F27115BDB0070541D /* keqing-intro-cn.wav */,
+				F835A92127115BDC0070541D /* keqing-intro-en.wav */,
+				F835A91D27115BDB0070541D /* keqing-intro-jp.wav */,
+				F835A91E27115BDB0070541D /* keqing-proc-cn.wav */,
+				F835A92027115BDB0070541D /* keqing-proc-en.wav */,
+				F835A91C27115BDB0070541D /* keqing-proc-jp.wav */,
+				F835A918271155BF0070541D /* ganyu-work-cn.wav */,
+				F835A916271155BF0070541D /* ganyu-work-en.wav */,
+				F835A917271155BF0070541D /* ganyu-work-jp.wav */,
+				F835A905271155550070541D /* ganyu-qingxin-cn.wav */,
+				F835A906271155550070541D /* ganyu-qingxin-en.wav */,
+				F835A909271155560070541D /* ganyu-qingxin-jp.wav */,
+				F835A907271155550070541D /* ganyu-rain-cn.wav */,
+				F835A904271155550070541D /* ganyu-rain-en.wav */,
+				F835A908271155560070541D /* ganyu-rain-jp.wav */,
+				F835A90227114F220070541D /* introduction-ganyu-english.wav */,
+				F835A90027114E7E0070541D /* introductionganyu-japanese.wav */,
+				F835A8FC27114E6C0070541D /* introductionganyu-chinese.wav */,
+				F835A8F627113DB80070541D /* hu-tao-hill-cn.wav */,
+				F835A8F727113DB90070541D /* hu-tao-hill-en.wav */,
+				F835A8F527113DB80070541D /* hu-tao-hill-jp.wav */,
+				F835A8E327113DB00070541D /* hu-tao-intro-cn.wav */,
+				F835A8E427113DB00070541D /* hu-tao-intro-en.wav */,
+				F835A8E827113DB10070541D /* hu-tao-intro-jp.wav */,
+				F835A8E727113DB10070541D /* hu-tao-name-cn.wav */,
+				F835A8EA27113DB10070541D /* hu-tao-name-en.wav */,
+				F835A8E527113DB10070541D /* hu-tao-name-jp.wav */,
+				F835A8E627113DB10070541D /* hu-tao-night-cn.wav */,
+				F835A8E927113DB10070541D /* hu-tao-night-en.wav */,
+				F835A8EB27113DB10070541D /* hu-tao-night-jp.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		F8C27FEF270AAE63002CDA8B = {
+			isa = PBXGroup;
+			children = (
+				F8C27FFA270AAE63002CDA8B /* Project1 */,
+				F8C27FF9270AAE63002CDA8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C27FF9270AAE63002CDA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C27FF8270AAE63002CDA8B /* Project1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C27FFA270AAE63002CDA8B /* Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				F835A8FB27113DBF0070541D /* sounds */,
+				F8C27FFB270AAE63002CDA8B /* AppDelegate.swift */,
+				F8C27FFD270AAE63002CDA8B /* SceneDelegate.swift */,
+				F8C27FFF270AAE63002CDA8B /* ViewController.swift */,
+				F8C28001270AAE63002CDA8B /* Main.storyboard */,
+				F8A4D824270CB5E300909D49 /* Quiz.swift */,
+				F8A4D820270CB35D00909D49 /* Artworks.swift */,
+				F8A4D822270CB53000909D49 /* ButtonSelection.swift */,
+				F8C28004270AAE6A002CDA8B /* Assets.xcassets */,
+				F8C28006270AAE6A002CDA8B /* LaunchScreen.storyboard */,
+				F8C28009270AAE6A002CDA8B /* Info.plist */,
+			);
+			path = Project1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C27FF7270AAE63002CDA8B /* Project1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C2800C270AAE6A002CDA8B /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildPhases = (
+				F8C27FF4270AAE63002CDA8B /* Sources */,
+				F8C27FF5270AAE63002CDA8B /* Frameworks */,
+				F8C27FF6270AAE63002CDA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project1;
+			productName = Project1;
+			productReference = F8C27FF8270AAE63002CDA8B /* Project1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C27FF0270AAE63002CDA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F8C27FF7270AAE63002CDA8B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = F8C27FF3270AAE63002CDA8B /* Build configuration list for PBXProject "Project1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C27FEF270AAE63002CDA8B;
+			productRefGroup = F8C27FF9270AAE63002CDA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C27FF7270AAE63002CDA8B /* Project1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C27FF6270AAE63002CDA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F835A95F27116C110070541D /* zhongli-wine-cn.wav in Resources */,
+				F835A91B271155BF0070541D /* ganyu-work-cn.wav in Resources */,
+				F835A93B27115F180070541D /* yanfei-intro-en.wav in Resources */,
+				F835A93A27115F180070541D /* yanfei-law-jp.wav in Resources */,
+				F835A98F2711721D0070541D /* kazuha-maple-en.wav in Resources */,
+				F835A919271155BF0070541D /* ganyu-work-en.wav in Resources */,
+				F835A90A271155560070541D /* ganyu-rain-en.wav in Resources */,
+				F835A93F27115F180070541D /* yanfei-law-en.wav in Resources */,
+				F835A94327115F210070541D /* yanfei-rain-jp.wav in Resources */,
+				F835A96E27116F250070541D /* childe-fish-cn.wav in Resources */,
+				F835A8F027113DB10070541D /* hu-tao-name-cn.wav in Resources */,
+				F835A96D27116F250070541D /* childe-idle-jp.wav in Resources */,
+				F835A94427115F210070541D /* yanfei-rain-cn.wav in Resources */,
+				F835A8EC27113DB10070541D /* hu-tao-intro-cn.wav in Resources */,
+				F835A8ED27113DB10070541D /* hu-tao-intro-en.wav in Resources */,
+				F835A8F427113DB10070541D /* hu-tao-night-jp.wav in Resources */,
+				F835A92E27115BE90070541D /* keqing-shopping-jp.wav in Resources */,
+				F835A998271175530070541D /* chongyun-diet-cn.wav in Resources */,
+				F835A95E27116C110070541D /* zhongli-tour-en.wav in Resources */,
+				F835A8F127113DB10070541D /* hu-tao-intro-jp.wav in Resources */,
+				F835A97527116F250070541D /* childe-idle-en.wav in Resources */,
+				F835A92F27115BE90070541D /* keqing-sun-cn.wav in Resources */,
+				F835A9812711720F0070541D /* kazuha-about-jp.wav in Resources */,
+				F835A93127115BE90070541D /* keqing-sun-en.wav in Resources */,
+				F835A90F271155560070541D /* ganyu-qingxin-jp.wav in Resources */,
+				F835A97B27116F2C0070541D /* childe-intro-jp.wav in Resources */,
+				F835A94527115F210070541D /* yanfei-rain-en.wav in Resources */,
+				F835A97227116F250070541D /* childe-home-en.wav in Resources */,
+				F8C28008270AAE6A002CDA8B /* LaunchScreen.storyboard in Resources */,
+				F835A90127114E7E0070541D /* introductionganyu-japanese.wav in Resources */,
+				F835A98E2711721D0070541D /* kazuha-intro-cn.wav in Resources */,
+				F835A98D2711721D0070541D /* kazuha-rock-en.wav in Resources */,
+				F835A99F2711755A0070541D /* chongyun-intro-en.wav in Resources */,
+				F835A999271175530070541D /* chongyun-diet-en.wav in Resources */,
+				F835A97327116F250070541D /* childe-home-cn.wav in Resources */,
+				F835A91A271155BF0070541D /* ganyu-work-jp.wav in Resources */,
+				F835A8EF27113DB10070541D /* hu-tao-night-cn.wav in Resources */,
+				F835A92327115BDC0070541D /* keqing-intro-jp.wav in Resources */,
+				F835A9902711721D0070541D /* kazuha-intro-jp.wav in Resources */,
+				F835A95527116C070070541D /* zhongli-seafood-en.wav in Resources */,
+				F835A97427116F250070541D /* childe-fish-en.wav in Resources */,
+				F835A94A27115F280070541D /* yanfei-tofu-en.wav in Resources */,
+				F835A92627115BDC0070541D /* keqing-proc-en.wav in Resources */,
+				F835A9AB271175670070541D /* chongyun-tea-en.wav in Resources */,
+				F835A93E27115F180070541D /* yanfei-law-cn.wav in Resources */,
+				F835A93327115BE90070541D /* keqing-shopping-en.wav in Resources */,
+				F835A9A7271175670070541D /* chongyun-spicy-en.wav in Resources */,
+				F835A98C2711721D0070541D /* kazuha-maple-jp.wav in Resources */,
+				F835A9A8271175670070541D /* chongyun-spicy-cn.wav in Resources */,
+				F835A97F2711720F0070541D /* kazuha-about-cn.wav in Resources */,
+				F835A8F327113DB10070541D /* hu-tao-name-en.wav in Resources */,
+				F835A95727116C070070541D /* zhongli-seafood-cn.wav in Resources */,
+				F835A93D27115F180070541D /* yanfei-intro-cn.wav in Resources */,
+				F835A90D271155560070541D /* ganyu-rain-cn.wav in Resources */,
+				F835A8EE27113DB10070541D /* hu-tao-name-jp.wav in Resources */,
+				F835A8FA27113DB90070541D /* hu-tao-hill-en.wav in Resources */,
+				F835A96227116C110070541D /* zhongli-tour-jp.wav in Resources */,
+				F835A92227115BDC0070541D /* keqing-proc-jp.wav in Resources */,
+				F835A96F27116F250070541D /* childe-idle-cn.wav in Resources */,
+				F835A997271175530070541D /* chongyun-diet-jp.wav in Resources */,
+				F835A95127116BFE0070541D /* zhongli-intro-jp.wav in Resources */,
+				F835A8F827113DB90070541D /* hu-tao-hill-jp.wav in Resources */,
+				F835A97927116F2C0070541D /* childe-intro-cn.wav in Resources */,
+				F835A94F27116BFE0070541D /* zhongli-intro-cn.wav in Resources */,
+				F835A98B2711721D0070541D /* kazuha-rock-cn.wav in Resources */,
+				F835A94B27115F280070541D /* yanfei-tofu-cn.wav in Resources */,
+				F835A95027116BFE0070541D /* zhongli-intro-en.wav in Resources */,
+				F835A90B271155560070541D /* ganyu-qingxin-cn.wav in Resources */,
+				F835A94927115F280070541D /* yanfei-tofu-jp.wav in Resources */,
+				F835A90327114F220070541D /* introduction-ganyu-english.wav in Resources */,
+				F835A92727115BDC0070541D /* keqing-intro-en.wav in Resources */,
+				F835A93027115BE90070541D /* keqing-sun-jp.wav in Resources */,
+				F835A8FD27114E6C0070541D /* introductionganyu-chinese.wav in Resources */,
+				F835A96127116C110070541D /* zhongli-wine-en.wav in Resources */,
+				F835A9932711721D0070541D /* kazuha-rock-jp.wav in Resources */,
+				F8C28005270AAE6A002CDA8B /* Assets.xcassets in Resources */,
+				F835A92527115BDC0070541D /* keqing-intro-cn.wav in Resources */,
+				F835A9922711721D0070541D /* kazuha-maple-cn.wav in Resources */,
+				F835A8F227113DB10070541D /* hu-tao-night-en.wav in Resources */,
+				F835A93227115BE90070541D /* keqing-shopping-cn.wav in Resources */,
+				F835A90C271155560070541D /* ganyu-qingxin-en.wav in Resources */,
+				F835A97027116F250070541D /* childe-fish-jp.wav in Resources */,
+				F835A95627116C070070541D /* zhongli-seafood-jp.wav in Resources */,
+				F835A9AA271175670070541D /* chongyun-tea-jp.wav in Resources */,
+				F835A97127116F250070541D /* childe-home-jp.wav in Resources */,
+				F835A96327116C110070541D /* zhongli-wine-jp.wav in Resources */,
+				F835A92427115BDC0070541D /* keqing-proc-cn.wav in Resources */,
+				F835A90E271155560070541D /* ganyu-rain-jp.wav in Resources */,
+				F835A97A27116F2C0070541D /* childe-intro-en.wav in Resources */,
+				F835A99E2711755A0070541D /* chongyun-intro-jp.wav in Resources */,
+				F835A93C27115F180070541D /* yanfei-intro-jp.wav in Resources */,
+				F835A8F927113DB90070541D /* hu-tao-hill-cn.wav in Resources */,
+				F835A9912711721D0070541D /* kazuha-intro-en.wav in Resources */,
+				F835A99D2711755A0070541D /* chongyun-intro-cn.wav in Resources */,
+				F8C28003270AAE63002CDA8B /* Main.storyboard in Resources */,
+				F835A96027116C110070541D /* zhongli-tour-cn.wav in Resources */,
+				F835A9A6271175670070541D /* chongyun-spicy-jp.wav in Resources */,
+				F835A9802711720F0070541D /* kazuha-about-en.wav in Resources */,
+				F835A9A9271175670070541D /* chongyun-tea-cn.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C27FF4270AAE63002CDA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C28000270AAE63002CDA8B /* ViewController.swift in Sources */,
+				F8C27FFC270AAE63002CDA8B /* AppDelegate.swift in Sources */,
+				F8A4D825270CB5E300909D49 /* Quiz.swift in Sources */,
+				F8A4D823270CB53000909D49 /* ButtonSelection.swift in Sources */,
+				F8A4D821270CB35D00909D49 /* Artworks.swift in Sources */,
+				F8C27FFE270AAE63002CDA8B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8C28001270AAE63002CDA8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C28002270AAE63002CDA8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C28006270AAE6A002CDA8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C28007270AAE6A002CDA8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C2800A270AAE6A002CDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8C2800B270AAE6A002CDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C2800D270AAE6A002CDA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Project1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.Project1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C2800E270AAE6A002CDA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Project1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.Project1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C27FF3270AAE63002CDA8B /* Build configuration list for PBXProject "Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C2800A270AAE6A002CDA8B /* Debug */,
+				F8C2800B270AAE6A002CDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C2800C270AAE6A002CDA8B /* Build configuration list for PBXNativeTarget "Project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C2800D270AAE6A002CDA8B /* Debug */,
+				F8C2800E270AAE6A002CDA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C27FF0270AAE63002CDA8B /* Project object */;
+}
