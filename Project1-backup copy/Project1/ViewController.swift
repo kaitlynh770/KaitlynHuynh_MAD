@@ -11,6 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    /*
+        Source used for audio code
+        https://www.youtube.com/watch?v=1htq-c4kVdA
+    */
+    
     var hutaoSelected = false;
     var childeSelected = false;
     var ganyuSelected = false;
