@@ -11,6 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+      /*
+     Source for quiz game idea and code:
+     https://www.youtube.com/watch?v=nvug6a_jPRs
+     */
+    
     var hutaoSelected = false;
     var childeSelected = false;
     var ganyuSelected = false;
