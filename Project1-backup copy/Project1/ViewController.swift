@@ -11,10 +11,10 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-      /*
-     Source for quiz game idea and code:
-     https://www.youtube.com/watch?v=nvug6a_jPRs
-     */
+     /*
+        Source used for audio code
+        https://www.youtube.com/watch?v=1htq-c4kVdA
+    */
     
     var hutaoSelected = false;
     var childeSelected = false;
