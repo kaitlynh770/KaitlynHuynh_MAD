@@ -10,10 +10,6 @@ import UIKit
 
 class Quiz: UIViewController {
     
-    /*
-     Source for quiz game idea and code:
-     https://www.youtube.com/watch?v=nvug6a_jPRs
-     */
     
     @IBOutlet weak var questionText: UILabel!
     @IBOutlet weak var questionImage: UIImageView!
