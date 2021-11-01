@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="editSquidName">Name of Squid</string>
+    <string name="squidMessage" />
+    <string name="buttonText">Say Hi!</string>
+</resources>
