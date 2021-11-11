@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="heading">What villager will you get?</string>
+    <string name="speciesQuestion">Choose a species</string>
+    <string name="squirrel">Squirrel</string>
+    <string name="bunny">Bunny</string>
+    <string name="cat">Cat</string>
+    <string name="personalityQuestion">Choose a Personality!</string>
+    <string name="glutenfree">Gluten-free</string>
+    <string name="giftQuestion">Choose a gift to give</string>
+    <string name="flowers">Flowers</string>
+    <string name="trash">Trash</string>
+    <string name="villagerButton">who will you get?</string>
+    <string name="villagerDesc" />
+    <string-array name = "personality">
+        <item>Lazy</item>
+        <item>Smug</item>
+        <item>Normal</item>
+        <item>Peppy</item>
+        <item>Jock</item>
+        <item>Snooty</item>
+    </string-array>
+</resources>
