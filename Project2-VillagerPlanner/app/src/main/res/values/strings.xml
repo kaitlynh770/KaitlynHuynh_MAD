@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Villager Planner ♡</string>
+    <string name="villagerType">Villager Type: </string>
+    <string name="species">Species: </string>
+    <string name="birthday">Birthday: </string>
+    <string name="skill">Skill: </string>
+    <string name="goal">Goal: </string>
+    <string name="favoriteSong">Favorite Song: </string>
+</resources>
