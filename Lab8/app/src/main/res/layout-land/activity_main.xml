@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:id="@+id/root_layout"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
+
+  <TextView
+      android:id="@+id/header"
+      android:layout_width="198dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="32dp"
+      android:layout_marginTop="28dp"
+      android:text="@string/Choose"
+      android:textColor="#000000"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="@string/tile"
+      app:layout_constraintStart_toStartOf="@+id/header"
+      app:layout_constraintTop_toBottomOf="@+id/header" />
+
+  <ImageView
+      android:id="@+id/sea2"
+      android:layout_width="90dp"
+      android:layout_height="86dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="52dp"
+      app:layout_constraintDimensionRatio=""
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/sea" />
+
+  <ImageView
+      android:id="@+id/sea3"
+      android:layout_width="90dp"
+      android:layout_height="86dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="68dp"
+      app:layout_constraintDimensionRatio=""
+      app:layout_constraintEnd_toStartOf="@+id/sea4"
+      app:layout_constraintTop_toBottomOf="@+id/tile1"
+      app:srcCompat="@drawable/sea" />
+
+  <Button
+      android:id="@+id/tile2"
+      android:layout_width="130dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="52dp"
+      android:text="@string/clickhere"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/sea2"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/tile4"
+      android:layout_width="130dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="36dp"
+      android:text="@string/clickhere"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/sea4"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <Button
+      android:id="@+id/tile3"
+      android:layout_width="130dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      android:text="@string/clickhere"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/tile4"
+      app:layout_constraintHorizontal_bias="0.974"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/sea3"
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <ImageView
+      android:id="@+id/sea4"
+      android:layout_width="90dp"
+      android:layout_height="86dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="30dp"
+      app:layout_constraintDimensionRatio=""
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.959"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tile2"
+      app:srcCompat="@drawable/sea" />
+
+  <Button
+      android:id="@+id/tile1"
+      android:layout_width="130dp"
+      android:layout_height="40dp"
+      android:layout_marginTop="8dp"
+      android:text="@string/clickhere"
+      app:layout_constraintEnd_toStartOf="@+id/tile2"
+      app:layout_constraintHorizontal_bias="0.95"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/sea1"
+      tools:ignore="TouchTargetSizeCheck" />
+
+  <ImageView
+      android:id="@+id/sea1"
+      android:layout_width="104dp"
+      android:layout_height="89dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="68dp"
+      app:layout_constraintDimensionRatio=""
+      app:layout_constraintEnd_toStartOf="@+id/sea2"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/sea" />
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
