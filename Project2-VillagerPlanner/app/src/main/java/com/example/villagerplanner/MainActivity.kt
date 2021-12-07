@@ -7,37 +7,573 @@ import android.graphics.drawable.Drawable
 import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import org.w3c.dom.Text
+import android.widget.ListView as ListView1
 
 class MainActivity : AppCompatActivity() {
+
+    private var villagerDisplayed = VillagerTraits()
+    private val REQUEST_CODE = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
-        val listView = findViewById<ListView>(R.id.main_listView)
+        val listView = findViewById<ListView1>(R.id.main_listView)
         val neutralColor = Color.parseColor("#FAF6E9")
+
+
         listView.setBackgroundColor(neutralColor)
 
+
         listView.adapter = MyCustomAdapter(this)
+
         listView.setOnItemClickListener { parent, view, position, id ->
             if(position == 0){
+                villagerDisplayed.setVillagerValues(position)
+
                 val intent = Intent(this, villager::class.java)
-                startActivity(intent);
-//                Toast.makeText(this@MainActivity,"Item One Clicked...", Toast.LENGTH_SHORT).show()
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
             }
-//            if(position == 1){
-//                Toast.makeText(this@MainActivity,"Item Two Clicked...", Toast.LENGTH_SHORT).show()
-//            }
-//            if(position == 2){
-//                Toast.makeText(this@MainActivity,"Item Three Clicked...", Toast.LENGTH_SHORT).show()
-//            }
+            if(position == 1){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 2){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 3){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 4){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 5){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 6){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 7){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 8){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 9){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 10){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 11){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 12){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 13){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 14){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 15){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 16){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 17){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 18){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 19){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 20){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 21){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 22){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 23){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 24){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 25){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+                startActivityForResult(intent, REQUEST_CODE);
+
+            }
+            if(position == 26){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 27){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 28){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
+            if(position == 29){
+                villagerDisplayed.setVillagerValues(position)
+
+                val intent = Intent(this, villager::class.java)
+                intent.putExtra("name", villagerDisplayed.villagerName);
+                intent.putExtra("type", villagerDisplayed.villagerType);
+                intent.putExtra("species", villagerDisplayed.villagerSpecies);
+                intent.putExtra("phrase", villagerDisplayed.villagerPhrase);
+                intent.putExtra("birthday", villagerDisplayed.villagerBirthday);
+                intent.putExtra("skill", villagerDisplayed.villagerSkill);
+                intent.putExtra("goal", villagerDisplayed.villagerGoal);
+                intent.putExtra("song", villagerDisplayed.villagerSong);
+                intent.putExtra("songUrl", villagerDisplayed.villagerSongUrl);
+                intent.putExtra("image", villagerDisplayed.villagerImage)
+
+
+                startActivityForResult(intent, REQUEST_CODE);
+            }
         }
     }
     private class MyCustomAdapter(context: Context):BaseAdapter(){
@@ -79,7 +615,6 @@ class MainActivity : AppCompatActivity() {
 
             val villagerIcon = rowMain.findViewById<ImageView>(R.id.imageView)
             villagerIcon.setImageResource(pictures[position])
-
 
 
             val descriptionTextView = rowMain.findViewById<TextView>(R.id.descriptionText)
