@@ -16,6 +16,8 @@ import android.telecom.Call.Details
 import java.security.AccessControlContext
 import java.security.AccessController.getContext
 
+//ListView tutorial from Let's Build That App: https://www.youtube.com/watch?v=EwwdQt3_fFU
+//Clickable ListView Item from Master Coding: https://www.youtube.com/watch?v=eX26q-kJ_Jk
 
 class MainActivity : AppCompatActivity() {
 
