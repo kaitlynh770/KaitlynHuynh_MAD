@@ -11,7 +11,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/vibur"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -25,7 +24,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="16dp"
-        android:fontFamily="@font/patrick_hand"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/nameTextView"
         app:layout_constraintTop_toBottomOf="@+id/nameTextView"
@@ -41,5 +39,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@drawable/filcon" />
+
+    <ImageButton
+        android:id="@+id/favoriteVillager"
+        android:layout_width="70dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:background="#FAF6E9"
+        android:padding="15dp"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

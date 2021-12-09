@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Villager Planner ♡</string>
+    <string name="app_name">Villager Viewer ♡</string>
     <string name="villagerType">Villager Type: </string>
     <string name="species">Species: </string>
     <string name="birthday">Birthday: </string>
@@ -8,4 +8,5 @@
     <string name="favoriteSong">Favorite Song: </string>
     <string name="catchphrase"> Catchphrase: </string>
     <string name="add">Favorite</string>
+    <string name="favoriteList">Favorites</string>
 </resources>

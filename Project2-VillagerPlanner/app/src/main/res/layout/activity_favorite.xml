@@ -1,42 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:background="#FAF6E9"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAF6E9"
     tools:context=".MainActivity">
 
     <ListView
-        android:id="@+id/main_listView"
-        android:layout_width="399dp"
-        android:layout_height="492dp"
-        android:layout_marginTop="8dp"
+        android:id="@+id/favorite_listView"
+        android:layout_width="408dp"
+        android:layout_height="449dp"
         android:background="#FAF6E9"
         android:nestedScrollingEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nintendoSwitch">
+        app:layout_constraintStart_toStartOf="parent">
 
     </ListView>
 
     <ImageView
         android:id="@+id/nintendoSwitch"
-        android:layout_width="257dp"
-        android:layout_height="236dp"
+        android:layout_width="199dp"
+        android:layout_height="168dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintDimensionRatio="0.5:0.5"
+        app:layout_constraintBottom_toTopOf="@+id/favorite_listView"
+        app:layout_constraintDimensionRatio=".5:.5"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/nintendoswitch" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.core.widget.NestedScrollView>
